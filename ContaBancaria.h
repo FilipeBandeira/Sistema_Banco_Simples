@@ -18,6 +18,7 @@ public:
     void transferir(double valor, ContaBancaria &destino1, ContaBancaria &destino2);
 
     void exibirSaldo() const;
+    double getSaldo() const;
     void exibirInformacoes() const;
 };
 
